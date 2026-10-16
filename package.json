@@ -1,12 +1,12 @@
 {
   "name": "dsh-ctrl-wheel-zoom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ctrl+wheel page zoom for the DeepSeek Harness Web UI, with an on-screen zoom chip and a General settings row",
   "type": "module",
   "icon": "./icon.svg",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REPLACE_WITH_YOUR_GITHUB_USERNAME/dsh-ctrl-wheel-zoom.git"
+    "url": "git+https://github.com/Inoue-Cyrene/dsh-ctrl-wheel-zoom.git"
   },
   "exports": {
     ".": "./index.js",
