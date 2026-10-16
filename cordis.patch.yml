@@ -1,0 +1,3 @@
+- insert:
+    - id: ctrl-wheel-zoom
+      name: 'dsh-ctrl-wheel-zoom'

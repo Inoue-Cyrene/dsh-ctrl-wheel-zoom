@@ -1,0 +1,16 @@
+{
+  "chip.label": "页面缩放",
+  "chip.fit": "适合宽度",
+  "chip.percent": "{percent}%",
+  "chip.reset": "恢复 100%",
+  "chip.title": "页面缩放 {percent}%",
+  "fit.title": "缩放以适合宽度",
+  "reset.title": "恢复 100%",
+  "row.title": "页面缩放",
+  "row.description": "按住 Ctrl 并滚动鼠标滚轮即可缩放整个页面",
+  "row.unit": "%",
+  "row.decrease": "缩小页面",
+  "row.increase": "放大页面",
+  "row.reset": "恢复 100%",
+  "row.fit": "适合宽度"
+}

@@ -1,0 +1,16 @@
+{
+  "chip.label": "Page zoom",
+  "chip.fit": "Fit to width",
+  "chip.percent": "{percent}%",
+  "chip.reset": "Reset to 100%",
+  "chip.title": "Page zoom {percent}%",
+  "fit.title": "Zoom to fit width",
+  "reset.title": "Reset to 100%",
+  "row.title": "Page zoom",
+  "row.description": "Hold Ctrl and roll the mouse wheel to zoom the whole page",
+  "row.unit": "%",
+  "row.decrease": "Zoom out",
+  "row.increase": "Zoom in",
+  "row.reset": "Reset to 100%",
+  "row.fit": "Fit to width"
+}

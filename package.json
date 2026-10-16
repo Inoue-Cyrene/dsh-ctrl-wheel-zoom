@@ -1,0 +1,53 @@
+{
+  "name": "dsh-ctrl-wheel-zoom",
+  "version": "1.0.0",
+  "description": "Ctrl+wheel page zoom for the DeepSeek Harness Web UI, with an on-screen zoom chip and a General settings row",
+  "type": "module",
+  "icon": "./icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE_WITH_YOUR_GITHUB_USERNAME/dsh-ctrl-wheel-zoom.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "locale/*.json"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-bundle",
+    "zoom",
+    "page-zoom",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "meta": {
+    "title": "Ctrl + Wheel Zoom",
+    "description": "Hold Ctrl and roll the mouse wheel to zoom the whole page, with an on-screen zoom chip and General settings stepper."
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
